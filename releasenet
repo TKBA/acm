@@ -1,0 +1,2 @@
+cd /home/lightspeed/soft/zdclient_bin_1.1_i686
+sudo bash runzdclient -l
