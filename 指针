@@ -1,0 +1,27 @@
+
+1.指针是存储地址的变量
+例如 
+定义node** a;
+int add_to_tail(node** head, int val)；
+
+
+int main() {
+    add_to_tail(a, 1);
+    return 0;
+}
+
+解析： 主函数调用 add_to_tail(a, 1) 时, 
+
+add_to_tail(node* head, val)
+会申请临时变量 head, 其中存放的值与 a
+中相同。
+
+分析node** 
+
+node** 存放node*  类型的地址
+node* 存放 node 类型对象（此对象非C++中对象哦）的地址
+
+所以 head 与 a  中存放的 node* 的地址是相同的
+
+从而对 head 中 node* 存储的 node对象地址的修改 
+等价于对 修改 a 中 node* 存放的地址。
