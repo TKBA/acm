@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1371523177 source:/home/lightspeed/job_code/jzof_3_2/main.cpp
+	<iostream>
+	<cstdio>
+	<cstring>
+	<assert.h>
+	<ctime>
+	<cstdlib>
+	<algorithm>
+

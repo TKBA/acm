@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1371815864 source:/home/lightspeed/job_code/zjof10/main.cpp
+	<iostream>
+	<cstdio>
+	<limits.h>
+

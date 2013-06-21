@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1371384485 source:/home/lightspeed/job_code/m_1/main.cpp
+	<iostream>
+	<cstdio>
+	<cstring>
+

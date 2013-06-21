@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1371817834 source:/home/lightspeed/job_code/jzof2.4.3/main.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+
