@@ -1,0 +1,5 @@
+UPDATE mysql.user SET Password = PASSWORD('yes') WHERE User = 'root';
+7RS5xWh60XeM2ecW
+debian-sys-maint
+xterm -T $TITLE -e
+gnome-terminal -t $TITLE -x
